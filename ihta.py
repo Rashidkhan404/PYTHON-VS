@@ -1,1 +1,2 @@
 print("ihta")
+print("khan")
