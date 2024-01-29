@@ -14,4 +14,3 @@ row_selected = matrix[row_number-1]
 row_selected[colunm_number-1] = "X"
 
 print(f"{row1}\n{row2}\n{row3}")
-print("kkkk")
