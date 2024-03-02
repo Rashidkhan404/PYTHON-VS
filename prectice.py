@@ -1,16 +1,18 @@
-row1 = ['😃', '😃', '😃']
-row2 = ['😃', '😃', '😃']
-row3 = ['😃', '😃', '😃']
+import random
 
-matrix = [row1, row2, row3]
-print(f"{row1}\n{row2}\n{row3}")
+user_choice = int(input("ENTER THE CHOICE :0 for Rock 1 for paper 2 for siceer:"))
 
-position = input("ENTER THE MONEY THAT YOU WANT TO HIDE IN EMOJi:")
+computer_choice = random.randint(0, 2)
+print("computer choice :")
+print(computer_choice)
 
-row_number = int(position[0])
-colunm_number = int(position[1])
-
-row_selected = matrix[row_number-1]
-row_selected[colunm_number-1] = "X"
-
-print(f"{row1}\n{row2}\n{row3}")
+if computer_choice == user_choice:
+    print("draw the match :")
+elif computer_choice == 0 and user_choice == 2:
+    print("you lose :")
+elif user_choice == 0 and computer_choice == 2:
+    print("You win :")
+elif computer_choice > user_choice:
+    print("computer win")
+elif user_choice > computer_choice:
+    print(" user win :")
