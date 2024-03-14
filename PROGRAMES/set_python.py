@@ -4,7 +4,7 @@
 # we can add or remove the elements
 # slicing is not allowed
 # duplicate element are not allowed
-# we can add tuple 
+# we can add tuple
 # we cant add List beacuse List are mutable
 set1 = {10, 56, 89, 99, 'jenny', True, 1}
 set1.add(99)
