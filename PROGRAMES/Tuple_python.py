@@ -16,6 +16,11 @@ List1 = [1, 2, 3, 4, 5]
 print(tuple(List1))  # convert list into tuple
 tuple4 = (10,)*3
 print(tuple4)
+# neting of tuple
+tuple5 = (10, 30, 20)
+tuple6 = (29, 35, 84)
+tuple7 = (tuple5, tuple6)
+print(tuple7[0])
 # print(tuple1)
 # print(tuple2)
 # print(tuple2[::])
