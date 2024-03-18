@@ -1,0 +1,3 @@
+w = 'UNIVERSITY OF SCIENCE AND TECHNOLOGY BANNUE'
+a = w.title()
+print(a)
